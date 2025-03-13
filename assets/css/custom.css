@@ -1,0 +1,25 @@
+.button--pill {
+  border-radius: 0.2rem;
+}
+
+.search-box > input {
+  border-radius: 0.2rem;
+}
+
+.coffee {
+  border: 0 solid #2a2a2a;
+  border-top-width: 1px;
+  margin-top: 3rem;
+  align-items: center !important;
+}
+
+.coffee-buttons {
+  margin-top: 0rem;
+  padding-top: 0rem;
+  text-align: center !important;
+  display: inline-block;
+}
+
+.body {
+  background-color: #000 !important;
+}

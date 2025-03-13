@@ -1,0 +1,38 @@
+header:
+
+  - titles:
+      # @start locale config
+      en      : &EN       Home
+      # @end locale config
+    url: /
+
+  - titles:
+      # @start locale config
+      en      : &EN       EX 280
+      # @end locale config
+    url: /ex280.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Categories
+      # @end locale config
+    url: /categories.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      # @end locale config
+    url: /archive.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      # @end locale config
+    url: /about.html
+
+
+  - titles:
+      # @start locale config
+      en      : &EN       Recommendations
+      # @end locale config
+    url: /recommendations.html
