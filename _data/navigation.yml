@@ -33,6 +33,6 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Recommendations
+      en      : &EN       Resources
       # @end locale config
-    url: /recommendations.html
+    url: /resources.html
