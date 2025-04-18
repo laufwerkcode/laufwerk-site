@@ -1,6 +1,7 @@
 ---
 title: This could save your day(ta)
 date: 2024-09-11
+cover: /assets/images/covers/backup.png
 toc: true
 mermaid: true
 categories:

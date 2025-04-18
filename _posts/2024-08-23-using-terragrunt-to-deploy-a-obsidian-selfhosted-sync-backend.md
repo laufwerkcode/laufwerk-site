@@ -1,6 +1,7 @@
 ---
 title: Using terragrunt to create a selfhosted Obsidian Sync backend
 date: 2024-08-23
+cover: /assets/images/covers/livesync.png
 toc: true
 mermaid: true
 categories: ["Infrastructure as Code"]

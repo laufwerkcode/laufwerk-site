@@ -1,8 +1,7 @@
 ---
 title: Running your GitHub Actions locally
 date: 2025-04-18
-cover: /assets/images/act-locally.png
-show_cover: true
+cover: /assets/images/covers/act-locally.png
 toc: true
 mermaid: true
 categories: ["devops"]
