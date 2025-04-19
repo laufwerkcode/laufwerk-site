@@ -16,7 +16,7 @@ I opted to try out obsidian-livesync via a self hosted database because I also w
 
 obsidian-livesync can use different backends for syncing (some of which are in beta at the time of writing this) but I chose to go for the CoucheDB route. I decided I wanted to run it in Docker, and because I wanted to test it out first on my machine and then in the home lab I wrote it up in Terraform and Terragrunt. That's a bit overkill for a simple container, but it's the tool set I use.
 
-All the setup is also in the [README](https://github.com/KingOfSpades/coucheDBviaTerragrunt/blob/main/README.md) of this [repo](https://github.com/KingOfSpades/coucheDBviaTerragrunt)
+All the setup is also in the [README](https://github.com/laufwerkcode/obsidian-selfhosted-sync/blob/main/README.md) of this [repo](https://github.com/laufwerkcode/obsidian-selfhosted-sync)
 
 # Setting up the container
 
