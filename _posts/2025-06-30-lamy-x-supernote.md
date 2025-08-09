@@ -1,7 +1,6 @@
 ---
 title: Building the SuperNote X Lamy EMR Pen
 date: 2025-06-30
-cover: /assets/images/covers/lamy-emr-thumbnail.png
 toc: true
 mermaid: true
 categories: ["supernote"]

@@ -1,7 +1,6 @@
 ---
 title: Running your GitHub Actions locally
 date: 2025-04-18
-cover: /assets/images/covers/act-locally.png
 toc: true
 mermaid: true
 categories: ["devops"]
@@ -85,7 +84,7 @@ on:
 jobs:
   show-hello:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Just say hallo!
       run: |
