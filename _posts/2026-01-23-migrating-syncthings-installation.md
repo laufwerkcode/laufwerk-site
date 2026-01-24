@@ -4,14 +4,14 @@ date: 2026-01-23
 toc: true
 mermaid: true
 categories: ["homelab"]
-tags: ["linux", ""]
+tags: ["linux"]
 ---
 
 I have been reworking my home lab and home storage in the past few weeks. Something that was on my wishlist for a long time was to migrate from the Syncthing installation that I ran on Proxmox via LXC containers to a container-backed solution on TrueNAS. For this, I needed to migrate the data from the old installation to the new one and configure the new installation to use the migrated data. Luckily, that's pretty straightforward.
 
 # What is syncthing
 
-Syncthing is an open-source continuous file synchronization tool that lets you sync files across multiple devices without relying on cloud storage providers. Think of it as your own personal Dropbox, but for free and without/less privacy concerns. It uses peer-to-peer connections to keep your data in sync, which means your files go directly between your devices—no third-party servers involved[^SyncthingNote]. It's cross-platform and runs on pretty much anything (including ARM devices, NAS boxes and even on my Kobo E-Reader). Check it out at: [https://syncthing.net/](https://syncthing.net/)
+Syncthing is an open-source continuous file synchronization tool that lets you sync files across multiple devices without relying on cloud storage providers. Think of it as your own personal Dropbox, but for free and without/less privacy concerns. It uses peer-to-peer connections to keep your data in sync, which means your files go directly between your devices, no third-party servers involved [^SyncthingNote]. It's cross-platform and runs on pretty much anything (including ARM devices, NAS boxes and even on my Kobo E-Reader). Check it out at: [https://syncthing.net/](https://syncthing.net/)
 
 [^SyncthingNote]: Syncthing uses free to use discovery servers to link your devices and facilitate discovery. You can choose to host these yourself aswel, see: [https://docs.syncthing.net/users/strelaysrv.html](https://docs.syncthing.net/users/strelaysrv.html)
 
