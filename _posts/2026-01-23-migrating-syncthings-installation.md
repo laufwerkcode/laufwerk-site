@@ -21,6 +21,9 @@ Setting up Syncthing on TrueNAS is pretty easy. I set up the application from th
 
 # Migrating Data
 
+**Note**: You are about to work directly with your datastore. Be sure that you understand what you are doing and make backups and/ or offerings to your deity of choice. Side note, you can also migrate data by just sharing your existing folders to the new instance and letting them sync up, but this is way slower than manually copying them over.
+{:.warning}
+
 Migrating the data is pretty straightforward. First, I stopped the old Syncthing instance and then copied the data from the old instance to the TrueNAS data folder using `rsync` or any other copy tool you like. You will need to migrate all the data from the different folders and the configuration to migrate an instance. When migrating the data folders, make sure the directory paths match (so `/var/syncthing/FOLDER_NAME` should be available on the same file path on the new installation). Note: these paths may be different for you depending on how you set up your shared folders.
 
 # Migrating Config
